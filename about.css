@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;700;900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --black: #18181B;
+    --gray: #70707B;
+    --white: #FCFCFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Volkhov", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** navbar styling **/
+header {
+    width: 90rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.union-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 1.8rem 0;
+}
+
+.logo-name a {
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 1.68rem;
+    color: var(--black);
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-items a {
+    color: var(--gray);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+    margin: 1.90rem 0;
+}
+
+.nav-contact {
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.75rem;
+    background-color: var(--black);
+    gap: 8px;
+    margin: 1.18rem 0;
+}
+
+.nav-contact a {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.55rem;
+    
+}
+
+/** section part styling **/
+#section-container {
+    width: 90rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero-container {
+    width: 80rem;
+    height: auto;
+    margin: 5rem;
+}
+
+/* first part */
+.hero-first-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 9.62rem;
+}
+
+.left-heading {
+    width: 35.18rem;
+    height: 100%;
+}
+
+.left-heading h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    color: var(--black);
+}
+
+.right-subheading {
+    width: 34.5rem;
+    height: 7rem;
+}
+
+.right-subheading p {
+    font-size: 1.100rem;
+    font-weight: 400;
+    line-height: 1.50rem;
+    color: var(--gray);
+}
+
+/* second part hero img*/
+.hero-image {
+    width: 80rem;
+    height: 45.18rem;
+    margin-top: 3.5rem;
+    border-radius: 0.75rem;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* third part statistic*/
+.statistic {
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+    height: 8rem;
+    margin-top: 56px;
+}
+
+.statistic-item {
+    width: 12.75rem;
+    height: 100%;
+}
+
+.statistic-value-container {
+    display: flex;
+    gap: 0.25rem;
+    margin: 0 1.68rem 1.25rem;
+}
+
+.statistic-value h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+}
+
+.statistic-plus-sign h5 i {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--gray);
+}
+
+.statistic-lebel p {
+    font-size: 1.20rem;
+    font-weight: 500;
+    line-height: 1.93rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--gray);
+}
+
+/* fourth part property development */
+.property-dev {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48.12rem;  
+    margin: 3.5rem 0 5rem;
+    gap: 3rem;
+}
+
+.left-side-content {
+    width: 36.62rem;
+    height: 100%;
+}
+
+.left-side-content h3 {
+    font-size: 2.89rem;
+    font-weight: 400;
+    line-height: 3.9rem;
+    letter-spacing: -2%;
+}
+
+.left-side-content p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.74rem;
+    margin-top: 1.5rem;
+}
+
+
+.right-side-image {
+    width: 40.37rem;
+    height: 100%;
+    border-radius: 0.75rem;
+}
+
+.right-side-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/*sixth trusted by leading banks */
+.hero-sec-container {
+    width: 100%;
+    height: 19.5rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted-leading-banks {
+    width: 80rem;
+    height: 9.5rem;
+}
+
+.banks-heading h5 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.banks-names {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    gap: 1.43rem;
+}
+
+.the-bank {
+    width: 12.12rem;
+    height: 3.5rem;
+}
+
+.america {
+    padding: 0.625rem 0;
+}
+
+.america img {
+    width: 100%;
+    height: 2.11rem;
+}
+
+
+.india {
+    padding: 0.62rem 0.56rem 0.062rem 0.75rem;
+}
+
+.india img {
+    width: 10.62rem;
+    height: 2.24rem;
+}
+
+.hsbc {
+    padding: 0.312rem 1.18rem 0.562rem;
+}
+
+.hsbc img {
+    width: 9.68rem;
+    height: 2.81rem;
+}
+
+.citizens {
+    padding: 0.812rem 0.312rem;
+}
+
+.citizens img {
+    width: 100%;
+    height: 1.75rem;
+}
+
+/* seventh testimonials section */
+.testimonials{
+    width: 100%;
+    height: 60.31rem;
+}
+
+.testimonials-section {
+    width: 80rem;
+    height: 60.31rem;
+    background-color: var(--white);
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.testimonials-header {
+    width: 100%;
+    height: 5.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+.title h3 {
+    font-size: 3.25rem;
+    font-weight: 400;
+    line-height: 3.89rem;
+    letter-spacing: -2%;
+}
+
+.description {
+    width: 35.43rem;
+    height: 100%;
+}
+
+.description p {
+    font-size: 1.125;
+    font-weight: 400;
+    line-height: 1.74rem;
+}
+
+.testmonials-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 38.06rem;
+}
+
+.testmonials-content {
+    width: 41.37rem;
+    height: 32.62rem;
+    margin: 2.71rem 0 4.5rem;
+}
+
+.quote-icon img {
+    width: 3rem;
+    height: 2.33rem;
+    padding: 0.81rem 0.5rem 0;
+}
+
+.testmonials-content h4 {
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    padding: 1.5rem 0;
+}
+
+.testmonials-content p {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.34rem;
+    color: var(--gray);
+}
+
+.testmonials-content .author {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.90rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.progress-bar {
+    display: flex;
+    gap: 0.812rem;
+}
+
+.bar-div {
+    width: 4.68rem;
+    height: 2rem;
+    background-color: var(--black);
+}
+
+.testimonials-image {
+    width: 34.12rem;
+    height: 100%;
+    border-radius: 0.75rem;
+}
+
+
+/* faq section last part */
+.faq-section {
+    width: 1440px;
+    height: 843px;
+    padding: 80px;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-container {
+    width: 33.25rem;
+    height: 42.68rem;
+}
+
+.faq-container h3 {
+    font-size: 3.25rem;
+    font-weight: 400;
+    line-height: 3.9rem;
+    letter-spacing: -2%;
+}
+
+.faq-container p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.93rem;
+    color: var(--gray);
+    margin-top: 1.5rem;
+}
+
+.faq-container .faq-image {
+    width: 33.25rem;
+    height: 20.25rem;
+    margin: 3.5rem 0 1.93rem;
+    border-radius: 0.75rem;
+}
+
+.faq-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.faq-accordion {
+    width: 43.25rem;
+    height: 42.68rem;
+}
+
+.faq {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 3.75rem;
+    color: var(--gray);
+}
+
+.extra {
+    width: 100%;
+    height: 9.43rem;
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    padding: 1rem;
+} 
+
+.extra p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.component-property-extra {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.faq-question-extra p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.74rem;
+    padding-bottom: 1.125rem;
+    color: var(--black);
+}
+
+.faq-question p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.74rem;
+    padding-bottom: 1rem;
+}
+
+.minus p {
+    width: 24px;
+    height: 24px;
+}
+
+.component-property {
+    display: flex;
+    align-items: center;
+}
+
+/**footer**/
+.foot-container{
+    width: 90rem;
+    height: 31.87rem;   
+    color: var(--white);
+    margin: 0 auto;
+    padding: 5rem 3.5rem;
+    background-color: var(--black);
+}
+
+
+.parent-componant {
+    display: flex;
+    justify-content: space-between;
+    width: 83rem;
+    height: 14.37rem;
+}
+
+.company-info {
+    width: 38.75rem;
+    height: 10.43rem;
+}
+
+.foot-heading h6 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 0.75rem; */
+}
+
+.mail-box {
+    width: 9.70rem;
+    height: 3.68rem;
+}
+
+.phone-num {
+    width: 8rem;
+    height: 3.68rem;
+}
+
+.office {
+    width: 20rem;
+    height: 3.68rem;
+}
+
+.info-pera p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.35rem;
+    padding-bottom: 0.75rem;
+}
+
+.info p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55rem;
+}
+
+.menu-componant {
+    display: flex;
+    justify-content: space-between;
+    width: 20.37rem;
+    height: 14.375rem;
+}
+
+.menu-left p {
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.left-list {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.left-list ul li {
+    list-style: none;
+}
+
+.left-list ul li a {
+    color: var(--white);
+}
+
+.left-list ul .sec-list {
+    padding: 1rem 0;
+}
+
+.menu-right p {
+    padding-bottom: 1rem;
+}
+
+.menu-right ul li {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.menu-right ul li a {
+    color: var(--white);
+    
+}
+
+/* footer bottom */
+hr {
+    margin: 5rem 0 1rem;
+    color: var(--white);
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+}
+
+.foot-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.foot-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
+.foot-text p {
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 1.68rem;
+}
+
+.back-to-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btt-icon a {
+    color: var(--white);
+}
