@@ -515,7 +515,7 @@
     /**footer**/
     .foot-container{
         width: 375px;
-        height: 980px;   
+        height: 975px;   
         color: var(--white);
         margin: 0;
         padding: 56px 20px;
@@ -589,4 +589,403 @@
     
 }
 
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    /** navbar styling **/
+    header {
+        width: 1024px;
+        height: 83px;
+    }
+
+
+    /**hero section**/
+    #hero-section {
+        width: 1024px;
+        height: 630px;
+    }
+
+    .hero-image {
+        width: 1024px;
+        height: 630px;
+    }
+
+    .hero-headline {
+        width: 554px;
+        height: 124px;
+        position: absolute;
+        left: 80px;
+        bottom: 40px;
+    }
+    
+    .hero-headline h1 {
+        font-size: 52px;
+        line-height: 62.4px;
+    }
+
+    .hero-icon {
+        width: 64px;
+        height: 64px;
+        right: 390px;
+        bottom: 40px;
+    }
+    
+    .hero-icon i {
+        padding-top: 24px;
+    }
+
+    .hero-gallery {
+        width: 170px;
+        /* height: 28.75rem; */
+        height: auto;;
+        right: 48px;
+        bottom: 40px;
+    }
+    
+    .gallery-image img {
+       width: 154px;
+       height: 110px;
+    }
+    
+    .middle {
+        padding: 12px 0;
+    }
+
+    /**about us container**/
+    .about-us-container {
+        width: 1024px;
+        height: 1066px;
+    }
+
+    /* section */
+    .section {
+        width: 864px;
+        height: 399px;
+        flex-direction: column;
+    }
+
+    .left-content {
+        width: 100%;
+        height: 96px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    
+    .left-content h3 {
+        width: 570px;
+        height: 96px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .left-content button {
+        width: 128px;
+        height: 45px;
+        padding: 10px 18px;
+    }
+
+    .right-content {
+        width: 864px;
+        height: 279px;
+    }
+    
+    .right-content p {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    /* property listing section */
+    .property-listing-section {
+        width: 864px;
+        height: 449px;  
+    }
+    
+    .property-card-first {
+        width: 206px;
+        height: 283px;
+    }
+    
+    .property-first-image img {
+        width: 206px;
+        height: 189px;
+    }
+
+    .property-details-card h6 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.8px;
+        padding: 0;
+    }
+    
+    .property-details-card p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.7px;
+        color: var(--gray);
+        line-height: 1.55rem;
+    }
+    
+    .property-card-second {
+        width: 263px;
+        height: 338px;
+        margin-top: 110px;
+    }
+    
+    .property-second-image img {
+        width: 263px;
+        height: 222px;
+    }
+    
+    .property-card-third {
+        width: 281px;
+        height: 374px;
+    }
+    
+    .property-third-image img {
+        width: 281px;
+        height: 230px;
+    }
+
+
+    /**property listing section**/
+    .property-container {
+        width: 1024px;
+        height: 1828px;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    /* section-header */
+    .section-header {
+        width: 100%;
+        height: 78px;
+        align-items: center;
+    }
+
+    .sec-heading h3 {
+        display: none;
+    }
+    
+    .sec-heading h5 {
+        display: block;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+    
+    .sec-head-pera {
+        width: 409px;
+        height: 78px;
+        overflow: hidden;
+    }
+    
+    .sec-head-pera p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;       
+    }
+
+    .bottom-button button {
+        margin-top: 56px;
+        margin-left: 388px;
+    }
+
+
+    /**Frequently Asked Questions**/
+    .faq-section {
+        width: 1024px;
+        height: 988px;
+    }
+    
+    .faq-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-container {
+        width: 864px;
+        height: 122px;
+    }
+
+    .faq-container h3 {
+        font-size:40px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+
+    .faq-container p {
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+    
+    .tablet-faq-img {
+        display: none;
+    }
+
+
+    .faq-accordion {
+        margin-top: 48px;
+        width: 864px;
+        height: 658px;
+    }
+
+    .extra {
+        width: 100%;
+        height: 9rem;
+    } 
+
+    /**blog section**/
+    .blog-section {
+        width: 1024px;
+        height: 925px;
+        margin: 0 ;
+        padding: 5rem;
+    }
+    
+    /* blog-section-header */
+    .blog-section-header {
+        width: 864px;
+        height: 122px;
+        display: flex;
+        flex-direction: column;;
+        align-items: start;
+    }
+
+    .post-card-extra {
+        display: none;
+    }
+
+    .blog-heading h3 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .blog-pera {
+        width: 100%;
+        height: auto;
+    }
+    
+    .blog-pera p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+    }
+
+    /* blog-posts */
+    .blog-post-container {
+        width: 864px;
+        height: 603px;
+    }
+
+    /** contact from **/
+    .contact-section {
+        width: 1024px;
+        height: 728px;
+        margin: 0;
+    }
+    
+    .contact-from {
+        width: 992px;
+        height: 648px;
+    }
+
+    .contact-image-div {
+        width: 992px;
+        height: 648px;
+    }
+
+    .contact-intro {
+        width: 480px;
+        height: 215px;
+        position: absolute;
+        top: 12.75rem;
+        left: 3.5rem;
+    }
+
+    .contact-intro h2 {
+        font-size: 48px;
+        line-height: 57.6px;
+        color: var(--white);
+    }
+    
+    .contact-intro p {
+        font-size: 16px;
+        line-height: 24.8px;
+        color: var(--white);
+    }
+
+
+    /* Form Container */
+    .contact-fields {
+        width: 376px;
+        height: 428px;
+        background-color: var(--white);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 6.875rem;
+        right: 3.5rem;  
+    }
+
+    .name {
+        width: 328px;
+        height: 25px;
+    }
+    
+    .text-box {
+        width: 328px;
+        height: 227px;
+    } 
+    
+    .name-email {
+        width: 328px;
+        height: 25px;
+        padding-bottom: 0.5rem;
+        border: none;
+        background-color: var(--white);
+    }
+    
+    #area {
+        width: 328px;
+        height: 204px;
+    }
+
+    /**footer**/
+    .foot-container{
+        width: 1024px;
+        height: 528px;   
+        margin: 0;
+    }
+
+    .parent-componant {
+        display: flex;
+        justify-content: space-between;
+        width: 946px;
+        height: 288px;
+    }
+
+    .company-info {
+        width: 432px;
+        height: 288px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .office {
+        margin-top: 24px;
+    }
+    
+
+}
 
