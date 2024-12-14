@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media(min-width: 0px) and (max-width: 375px) {
 
     /** navbar styling **/
     header {
@@ -595,7 +595,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media (min-width: 376px) and (max-width: 1024px) {
     /** navbar styling **/
     header {
         width: 1024px;
