@@ -83,6 +83,10 @@ header {
     
 }
 
+.bar-icon {
+    display: none;
+}
+
 /** section part styling **/
 #section-container {
     width: 90rem;
@@ -114,6 +118,10 @@ header {
     font-weight: 400;
     line-height: 4.8rem;
     color: var(--black);
+}
+
+.left-heading h5 {
+    display: none;
 }
 
 .right-subheading {
@@ -383,11 +391,6 @@ header {
     gap: 0.812rem;
 }
 
-.bar-div {
-    width: 4.68rem;
-    height: 2rem;
-    background-color: var(--black);
-}
 
 .testimonials-image {
     width: 34.12rem;

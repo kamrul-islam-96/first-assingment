@@ -513,9 +513,9 @@
 
 
     /**footer**/
-    .foot-container{
+    .foot-container {
         width: 375px;
-        height: 975px;   
+        height: 880px;   
         color: var(--white);
         margin: 0;
         padding: 56px 20px;

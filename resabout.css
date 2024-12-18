@@ -1,0 +1,475 @@
+@media(min-width: 0px) and (max-width: 375px) {
+
+    /** navbar styling **/
+    header {
+        width: 375px;
+        height: 70px;
+        padding-left: 20px;
+    }
+
+    .nav-bar {
+        width: 375px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .bar-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 19px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .nav-contact {
+        display: none;
+    }
+
+
+
+    /** section part styling **/
+    #section-container {
+        width: 375px;
+        height: auto;
+        margin: 0;
+        padding: 60px 20px;
+    }
+    
+    .hero-container {
+        width: 335px;
+        height: auto;
+        margin: 0;
+    }
+
+    /* first part */
+    .hero-first-container {
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-heading {
+        width: 314px;
+        height: 96px;
+    }
+
+    .left-heading h2 {
+        display: none;
+    }
+
+    .left-heading h5 {
+        display: block;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .right-subheading {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .right-subheading p {
+        font-size: 15px;
+        line-height: 24.8px;
+    }
+
+    /* second part hero img*/
+    .hero-image {
+        width: 335px;
+        height: 335px;
+        margin-top: 56px;
+    }
+
+    /* third part statistic*/
+    .statistic {
+        width: 335px;
+        height: 428px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .statistic-item {
+        width: 204px;
+        height: 89px;
+    }
+
+    .statistic-value-container {
+        width: 95px;
+        height: 48px;
+        display: flex;
+        gap: 0.25rem;
+        margin: 0 54px;
+    }
+
+    .Extra {
+        width: 69px;
+        height: 48px;
+        margin: 0 66px;
+    }
+    
+    .statistic-value h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .statistic-plus-sign h5 i {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+
+    .statistic-lebel p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24.8px;
+        margin-top: 16px;
+    }
+
+    /* fourth part property development */
+    .property-dev {
+        width: 335px;
+        height: auto; 
+        display: flex;         
+        flex-direction: column;
+        margin: 56px 0 0 0;
+        gap: 0;
+    }
+
+    .left-side-content {
+        width: 335px;
+        height: 851px;
+        overflow: hidden;
+    }
+    
+    .left-side-content h3 {
+        font-size: 30px;
+        line-height: 38.4px;
+        letter-spacing: 0;
+    }
+    
+    .left-side-content p {
+        font-size: 16px;
+        line-height: 1.74rem;
+    }
+
+    .right-side-image {
+        width: 335px;
+        height: 335px;
+        margin-top: 48px;
+    }
+
+    /*sixth trusted by leading banks */
+    .hero-sec-container {
+        width: 100%;
+        height: 350px;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trusted-leading-banks {
+        width: 335px;
+        height: 230px;
+    }
+
+    .banks-heading h5 {
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 38.4px;
+    }
+
+    .banks-names {
+        width: 335px;
+        height: 144px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        gap: 16px;
+        padding: 0 44px;
+    }
+
+    .the-bank {
+        width: 110px;
+        height: 32px;
+    }
+
+    .america {
+        padding: 6.45px 0;
+        width: 110px;
+        height: 32px;
+    }
+    
+    .america img {
+        width: 110px;
+        height: 19px;
+    }
+
+    .citygroup img {
+        width: 110px;
+        height: 32px;
+    }
+
+    .india {
+        padding: 5.78px 0;
+        width: 110px;
+        height: 32px;
+    }
+    
+    .india img {
+        width: 97px;
+        height: 20px;
+    }
+    
+    .hsbc {
+        padding: 0;
+        width: 110px;
+        height: 32px;
+    }
+    
+    .hsbc img {
+        width: 110px;
+        height: 32px;
+    }
+    
+    .citizens {
+        padding: 0;
+    }
+    
+    .citizens img {
+        width: 112px;
+        height: 28px;
+    }
+
+    /* seventh testimonials section */
+    .testimonials{
+        width: 100%;
+        height: 1167px;
+        padding: 60px 0;
+    }
+    
+    .testimonials-section {
+        width: 335px;
+        height: 1047px;
+        background-color: var(--white);
+        margin: 0 ;
+        padding: 0;
+    }
+
+    .testimonials-header {
+        width: 335px;
+        height: 187px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 7rem;
+    }
+
+    .title h3 {
+        font-size: 30px;
+        line-height: 38.4px;
+        letter-spacing: 0;
+    }
+
+    .description {
+        width: 335px;
+        height: 125px;
+    }
+    
+    .description p {
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+
+    .testmonials-item {
+        width: 100%;
+        height: 764px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .testmonials-content {
+        width: 335px;
+        height: 373px;
+        margin: 0;
+    }
+
+    .quote-icon img {
+        width: 3rem;
+        height: 2.33rem;
+    }
+
+    .testmonials-content h4 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 38.4px;
+        padding: 1.5rem 0;
+    }
+
+    .testmonials-content p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27.9px;
+        color: var(--gray);
+    }
+
+    .bar img {
+        width: 53px;
+    }
+
+    .testimonials-image {
+        width: 335px;
+        height: 335px;
+        border-radius: 0.75rem;
+    }
+
+    .testimonials-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    /**Frequently Asked Questions**/
+    .faq-section {
+        width: 335px;
+        height: 1383px;
+        padding: 60px 0;
+        margin: 0;
+    }
+
+    .faq-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .faq-container .faq-image {
+        display: none;
+    }
+
+
+    .faq-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .faq-container h3 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+    }
+    
+    .faq-container p {
+        font-size: 16px;
+        line-height: 24.8px;
+        margin-top: 24px;
+    }
+
+    .faq-accordion {
+        width: 100%;
+        height: 942px;
+        margin-top: 56px;
+    }
+
+    .faq {
+        width: 100%;
+        height: 88px;
+    }
+
+    .extra {
+        width: 100%;
+        height: 254px;
+        background-color: var(--white);
+    } 
+
+    
+    /**footer**/
+    .foot-container {
+        width: 375px;
+        height: 880px;   
+        color: var(--white);
+        margin: 0;
+        padding: 56px 20px;
+        background-color: var(--black);
+    }
+
+    .parent-componant {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 629px;
+    }
+
+    .company-info {
+        width: 100%;
+        height: 326px;
+    }
+    
+    .foot-heading h6 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 142px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-componant {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 279px;
+    }
+
+    .menu-right {
+        width: 335px;
+        height: 107px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .menu-right p {
+        width: 335px;
+        height: 10px;
+    }
+
+    hr {
+        margin: 40px 0 16px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+
+
+
+
+    
+    
+
+
+
+}
