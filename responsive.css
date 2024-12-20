@@ -985,6 +985,11 @@
     .office {
         margin-top: 24px;
     }
+
+    hr {
+        margin: 40px 0 16px;
+        color: var(--white);
+    }
     
 
 }
