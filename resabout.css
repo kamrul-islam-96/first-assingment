@@ -4,7 +4,7 @@
     header {
         width: 375px;
         height: 70px;
-        padding-left: 20px;
+        margin: 0;
     }
 
     .nav-bar {
@@ -13,6 +13,10 @@
         display: flex;
         align-items: center;
         margin: 0;
+    }
+
+    .nav-logo {
+        padding-left: 20px;
     }
 
     .bar-icon {
@@ -336,15 +340,17 @@
     }
 
     
-    /**Frequently Asked Questions**/
+    /* faq section last part */
     .faq-section {
-        width: 335px;
+        width: 100%;
         height: 1383px;
         padding: 60px 0;
         margin: 0;
     }
 
     .faq-content {
+        width: 335px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -393,7 +399,7 @@
     /**footer**/
     .foot-container {
         width: 375px;
-        height: 880px;   
+        height: 870px;   
         color: var(--white);
         margin: 0;
         padding: 56px 20px;
@@ -463,13 +469,6 @@
     .copyright {
         padding: 10px;
     }
-
-
-
-
-    
-    
-
 
 
 }
