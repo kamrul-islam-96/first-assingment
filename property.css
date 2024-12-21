@@ -145,7 +145,7 @@ header {
     height: 3.56rem;
     padding-left: 3rem;
     border-radius: 0.75rem;
-    border: none;
+    border: 1px solid #E4E4E7;
 }
 
 .search-icon img {

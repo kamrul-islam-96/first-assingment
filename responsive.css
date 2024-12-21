@@ -989,12 +989,17 @@
 
     hr {
         width: 912px;
-        margin: 40px 0 16px;
+        margin: 40px 17px 16px;
         color: var(--white);
     }
-
-    .foot-divider {
-        margin-left: 17px;
+    
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+        padding: 0px 17px;
     }
     
 
