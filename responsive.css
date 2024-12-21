@@ -963,6 +963,7 @@
         width: 1024px;
         height: 528px;   
         margin: 0;
+        padding: 80px 39px 0;
     }
 
     .parent-componant {
@@ -987,8 +988,13 @@
     }
 
     hr {
+        width: 912px;
         margin: 40px 0 16px;
         color: var(--white);
+    }
+
+    .foot-divider {
+        margin-left: 17px;
     }
     
 

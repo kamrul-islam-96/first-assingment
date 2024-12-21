@@ -1,0 +1,222 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 1024px) {
+    header {
+        width: 1024px;
+        height: 83px;
+        background-color: teal;
+        margin: 0;
+    }
+
+    /* main part start here */
+    #section-container {
+        width: 1024px;
+        height: auto;
+        margin: 0;
+        background-color: palegreen;
+    }
+
+
+    /**hero container**/
+    .hero-first-container {
+        width: 100%;
+        height: 100px;
+        background-color: paleturquoise;     
+        margin-bottom: 3.5rem;
+    }
+    
+    .left-heading {
+        width: 326px;
+        height: 100%;
+    }
+    
+    .left-heading h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    
+    .right-subheading {
+        width: 395px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .right-subheading p {
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+
+    /**frame container**/
+    .sidebar-container {
+        display: none;
+    }
+
+    .frame-container {
+        width: 100%;
+        height: 1620px;
+        background-color: tomato;
+    }
+
+    /* input field */
+    .input-field {
+        width: 100%;
+        height: 49px;   
+        background-color: aqua;
+    }
+
+    .input-search input {
+        width: 800px;
+        height: 49px;
+    }
+
+    .search-icon img {
+        top: 12.5px;
+        left: 12px;
+    }
+
+    .search-button {
+        display: block;
+        width: 48px;
+        height: 48px;
+        background-color: #E4E4E7;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    /** contact from **/
+    .contact-section {
+        width: 1024px;
+        height: 728px;
+        margin: 0;
+    }
+    
+    .contact-from {
+        width: 992px;
+        height: 648px;
+    }
+
+    .contact-image-div {
+        width: 992px;
+        height: 648px;
+    }
+
+    .contact-intro {
+        width: 480px;
+        height: 215px;
+        position: absolute;
+        top: 12.75rem;
+        left: 3.5rem;
+    }
+
+    .contact-intro h2 {
+        font-size: 48px;
+        line-height: 57.6px;
+        color: var(--white);
+    }
+    
+    .contact-intro p {
+        font-size: 16px;
+        line-height: 24.8px;
+        color: var(--white);
+    }
+
+
+    /* Form Container */
+    .contact-fields {
+        width: 376px;
+        height: 428px;
+        background-color: var(--white);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        position: absolute;
+        top: 6.875rem;
+        right: 3.5rem;  
+    }
+
+    .name {
+        width: 328px;
+        height: 25px;
+    }
+    
+    .text-box {
+        width: 328px;
+        height: 227px;
+    } 
+    
+    .name-email {
+        width: 328px;
+        height: 25px;
+        padding-bottom: 0.5rem;
+        border: none;
+        background-color: var(--white);
+    }
+    
+    #area {
+        width: 328px;
+        height: 204px;
+    }
+
+    /**footer**/
+    .foot-container{
+        width: 1024px;
+        height: 528px;   
+        margin: 0;
+        padding: 80px 39px 0;
+    }
+
+    .parent-componant {
+        display: flex;
+        justify-content: space-between;
+        width: 946px;
+        height: 288px;
+        background-color: blueviolet;
+    }
+
+    .company-info {
+        width: 432px;
+        height: 288px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .office {
+        margin-top: 24px;
+    }
+
+    hr {
+        width: 912px;
+        margin: 40px 0 16px;
+        color: var(--white);
+    }
+
+    .foot-divider {
+        margin-left: 17px;
+    }
+    
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+        padding: 0px 17px;
+    }
+    
+}
