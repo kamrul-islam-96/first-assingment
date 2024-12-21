@@ -793,6 +793,10 @@
         line-height: 24.8px;       
     }
 
+    .divider {
+        width: 420px;
+    }
+
     .bottom-button button {
         margin-top: 56px;
         margin-left: 388px;

@@ -84,6 +84,10 @@ header {
     
 }
 
+.bar-icon {
+    display: none;
+}
+
 /* main part start here */
 #section-container {
     width: 90rem;
@@ -454,6 +458,10 @@ header {
     height: 40.5rem;
     border-radius: 2.25rem;
 } 
+
+.contact-image-div-two {
+    display: none;
+}
 
 .contact-image-div img {
     width: 100%;

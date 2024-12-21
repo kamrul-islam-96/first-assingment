@@ -1,4 +1,348 @@
+@media (min-width: 0px) and (max-width: 375px) {
+    header {
+        width: 375px;
+        height: 70px;
+        padding: 0;
+    }
 
+    .nav-bar {
+        width: 375px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo {
+        padding-left: 19px;
+    }
+
+    .bar-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 19px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .nav-contact {
+        display: none;
+    }
+
+
+    /* main part start here */
+    .sidebar-container {
+        display: none;
+    }
+
+    #section-container {
+        width: 375px;
+        height: auto;
+        margin: 0;
+        padding: 60px 20px;
+    }
+
+    /**hero container**/
+    .hero-first-container {
+        width: 100%;
+        height: 230px;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+    }
+
+    .left-heading {
+        width: 335px;
+        height: 96px;
+    }
+    
+    .left-heading h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .right-subheading {
+        width: 335px;
+        height: 110px;
+        overflow: hidden;
+    }
+
+    .right-subheading p {
+        font-size: 14px;
+        line-height: 21.7px;
+    }
+
+    /**frame container**/
+    .frame-container {
+        width: 100%;
+        height: 2219px;
+    }
+
+
+    /* input field */
+    .input-field {
+        width: 335px;
+        height: 49px;   
+    }
+
+    .input-search input {
+        width: 271px;
+        height: 49px;
+    }
+
+    .search-icon img {
+        top: 12.5px;
+        left: 12px;
+    }
+
+    .search-button {
+        display: block;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    /* main content */
+    .main-content {
+        width: 100%;
+        height: 2146px;      
+        margin-top: 2.5rem;
+    }
+
+
+    .property-card {
+        width: 100%;
+        height: 2064;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .first-layout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    } 
+
+
+    .sec-layout {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .third-layout {
+        display: none;
+    }
+
+    .componant-properties {
+        width: 335px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+
+    .property-image img {
+        width: 335px;
+        height: 339px;
+        border-radius: 0.75rem;
+        position: relative;
+    }
+
+    .property-content {
+        width: 100%;
+        height: 120px;
+        margin: 0;
+    }
+
+    .divider {
+        margin-top: 10px;
+    }
+
+    .property-details span {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+
+    .icon-text p {
+        width: 245px;
+        height: 22px;
+        overflow: hidden;
+    }
+
+    .bottom-button button {
+        margin-top: 12px;
+        margin-left: 120px;
+    }
+
+    /** contact from **/
+    .contact-section {
+        width: 375px;
+        height: 880px;
+        margin: 0 ;
+        padding: 40px 16px;
+    }
+    
+    .contact-from {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-image-div-two {
+        display: block;
+        width: 343px;
+        height: 800px;
+    }
+
+    .contact-image-div-two img {
+        width: 100%;
+        height: 100%;
+        border-radius: 26px;
+    }
+
+
+    .contact-image-div {
+        display: none;
+    }
+
+    .contact-intro {
+        width: 303px;
+        height: 268px;
+        top: 40px;
+        left: 20px;
+    }
+
+    .contact-intro h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .contact-intro p {
+        font-size: 16px;
+        line-height: 24.8px;
+    }
+
+    .contact-fields {
+        width: 303px;
+        height: 412px;
+        padding: 16px;
+        margin-top: 250px;  
+        left: 20px;
+    }
+
+    .name {
+        width: 271px;
+        height: 25px;
+    }
+
+    .email {
+        width: 271px;
+        height: 25px;
+    }
+
+    .name-email {
+        width: 271px;
+        height: 25px;
+    }
+
+    .text-box {
+        width: 271px;
+        height: 237px;
+    } 
+
+    #area {
+        width: 271px;
+        height: 204px;
+        background-color: #ffffff;
+        border: 1px solid #E4E4E7;
+        border-radius: 0.5rem;
+        padding: 12px 14px;
+    }
+
+
+    /**footer**/
+    .foot-container {
+        width: 375px;
+        height: 870px;   
+        color: var(--white);
+        margin: 0;
+        padding: 56px 20px;
+        background-color: var(--black);
+    }
+
+    .parent-componant {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 629px;
+    }
+
+    .company-info {
+        width: 100%;
+        height: 326px;
+    }
+    
+    .foot-heading h6 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 142px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-componant {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 279px;
+    }
+
+    .menu-right {
+        width: 335px;
+        height: 107px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .menu-right p {
+        width: 335px;
+        height: 10px;
+    }
+
+    hr {
+        margin: 40px 0 16px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+
+}
 
 
 
