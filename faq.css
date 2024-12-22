@@ -85,7 +85,9 @@ header {
     
 }
 
-
+.bar-icon {
+    display: none;
+}
 
 
 /**section-container**/
@@ -181,6 +183,7 @@ main {
 
 .badge a {
     font-size: 0.75rem;
+    color: var(--gray);
 }
 
 
@@ -211,9 +214,15 @@ main {
     width: 15.625rem;
     height: 2.5rem;
     padding: 0.25rem 1rem;
+    border-left: 1px solid #E4E4E7;
+}
+
+.extra-border {
+    border-left: 1px solid var(--black);
 }
 
 .list-menu .item a {
+    font-size: 0.9375rem;
     color: var(--gray);
     line-height: 1.55rem;
     font-weight: 500;
@@ -303,6 +312,10 @@ main {
     height: 31.125rem;
     border-radius: 2.25rem;
     background: #000000 50%;
+}
+
+.contact-form-image-sm {
+    display: none;
 }
 
 .contact-form-intro {

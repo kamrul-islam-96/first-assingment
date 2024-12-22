@@ -85,7 +85,9 @@ header {
     
 }
 
-
+.bar-icon {
+    display: none;
+}
 
 
 

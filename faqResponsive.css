@@ -32,6 +32,7 @@
         display: none;
     }
 
+
     /**section-container**/
     main {
         width: 375px;
@@ -39,178 +40,97 @@
         margin: 0;
     }
 
-    /* header */
     .section-container {
-        width: 375px;
-        height: auto;
+        width: 100%;
+        height: 1523px;
         padding: 80px 20px;
+        margin: 0;
     }
 
-    .header {
+    /** seetion **/
+    .section {
         width: 100%;
-        height: 322px;
-    }   
-    
-    .header-frame {
+        height: 353px;
+        margin-bottom: 3.5rem;
+    }
+
+    .headline {
         width: 100%;
-        height: 242px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .header-heading {
-        width: 335px;
-        height: 144px;
-    }
-
-    .header-heading h3 {
-        font-size: 40px;
-        line-height: 48px;
-    
-    }
-
-    .header-subheading {
-        width: 100%;
-        height: 74px;
-        margin-top: 0;
+        height: 237px;
+        margin-bottom: 1.5rem;
         overflow: hidden;
     }
-
-    .header-subheading p {
+    
+    .headline h3 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 16px;
+    }
+    
+    .headline p {
         font-size: 16px;
-        line-height: 24.8px; 
+        line-height: 24.8px;
+    }
+
+    .search-section {
+        width: 335px;
+        height: 92px;
+        margin: 0;
     }
 
     .input-field {
         width: 335px;
-        height: 56px;   
-    }
-    
-    
-    .input-search input {
-        width: 100%;
-        height: 56px;
-    }
-    
-    .search-icon img {
-        position: absolute;
-        top: 16px;
-        left: 12px;
     }
 
-
-    /* content */
-    .sidebar {
-        display: none;
-    }
-
-    .blog-post-card {
-        width: 100%;
-        height: 560px;
-        gap: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .blog-image img {
+    .popular {
         width: 335px;
-        height: 335px;
+        height: 27px;
+        margin-left: 0;
+        gap: 6px;
     }
 
-    .blog-content {
-        width: 100%;
-        height: 209px;
-        margin: 0;
+    .description {
+        padding: 0;
     }
 
-    .article-title {
-        width: 100%;
-        height: 76px;
+    .description p {
+        font-size: 13px;
     }
 
-    .article-title h5 {
-        display: none;
-    }
-    
-    .article-title h6 {
-        display: block;
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 38.5px;
-        margin: 16px 0px 12px;
-    }
-
-    .article-description {
-        width: 100%;
-        height: 78px;
-        overflow: hidden;
-        margin-top: 12px;
-    }
-
-    .article-description p {
-        font-size: 16px;
-        line-height: 24.8px;
-    }
-
-
-    /* main-content */
-    .main-content {
-        width: 100%;
-        height: 2594px;
-        margin-top: 180px;
-    }
-
-    .last {
+    /** faq section **/
+    .menu {
         display: none;
     }
 
-    .main-content-header {
+    .faq-section {
         width: 100%;
-        height: 154px;
-    }
-    
-    .main-content-heading h3 {
-        font-size: 32px;
-        line-height: 38.4px;
-        padding-bottom: 1rem;
+        height: 954px;
     }
 
-    .main-content-subheading {
+    /* faq accordion*/
+    .faq-accordion {
         width: 100%;
-        height: 100px;
-        overflow: hidden;
-    }
-    
-    .main-content-subheading p {
-        font-size: 16px;
-        line-height: 24.8px;
+        height: auto;
     }
 
-    br {
-        display: none;
+    .faq {
+        width: 100%;
+        height: 88px;
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 
-    .articles-section {
+    .extra {
         width: 100%;
-        height: 2312px;
-    }
-
-    .article-card {
-        width: 100%;
-        height: 560px;
-    }
-
-    .article-card-image img {
-        width: 100%;
-        height: 335px;
+        height: 254px;
+        background-color: var(--white);
+        margin-bottom: 1rem;
+        padding: 1rem;
     } 
 
-    .article-section-button button {
-        margin: 45px 111px 0;
-    }
-    
-    /**contact section**/
-    .contact-section-last {
+
+     /**contact section**/
+     .contact-section-last {
         width: 375px;
         height: 582px;
     }
@@ -267,8 +187,6 @@
         left: -0px;
         bottom: -50px;
     }
-
-
 
     /**footer**/
     .foot-container {
@@ -344,10 +262,7 @@
         padding: 10px;
     }
 
-
-
 }
-
 
 
 
@@ -369,86 +284,10 @@
         margin: 0;
     }
 
-    /* header */
     .section-container {
-        width: 1024px;
-        height: auto;
+        margin: 0;
     }
 
-    .header {
-        width: 100%;
-        height: 183px;
-    }   
-    
-    .header-frame {
-        width: 100%;
-        height: 103px;
-    }
-
-    .header-heading {
-        width: 393px;
-        height: 96px;
-    }
-    
-    .header-heading h3 {
-        font-size: 40px;
-        line-height: 48px;
-    
-    }
-
-    .header-subheading {
-        width: 378px;
-        height: 99%;
-        margin-top: 0;
-        overflow: hidden;
-    }
-
-    .header-subheading p {
-        font-size: 16px;
-        line-height: 24.8px; 
-    }
-
-    .input-field {
-        width: 864px;
-        height: 56px;   
-    }
-    
-    
-    .input-search input {
-        width: 100%;
-        height: 56px;
-    }
-    
-    .search-icon img {
-        position: absolute;
-        top: 16px;
-        left: 12px;
-    }
-
-    /* content */
-    .sidebar {
-        display: none;
-    }
-
-    .blog-post-card {
-        width: 864px;
-        gap: 24px;
-    }
-
-    /* main-content */
-    .main-content {
-        width: 100%;
-        height: 2910px;
-    }
-
-    .extra {
-        display: none;
-    }
-
-    .article-section-button button {
-        margin: 700px 375.5px 0;
-    }
-    
 
     /**contact section**/
     .contact-section-last {
@@ -501,7 +340,6 @@
     }
 
 
-
     /**footer**/
     .foot-container{
         width: 1024px;
@@ -545,5 +383,4 @@
         height: 4rem;
         padding: 0px 17px;
     }
-
 }
