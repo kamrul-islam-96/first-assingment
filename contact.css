@@ -85,6 +85,10 @@ header {
     
 }
 
+.bar-icon {
+    display: none;
+}
+
 
 /**hero container**/
 main {
@@ -146,7 +150,6 @@ main {
 .first-last-name {
     width: 18.625rem;
     height: 1.56rem;
-    /* background-color: palevioletred; */
 }
 
 .first-last-name input {
@@ -248,20 +251,48 @@ main {
 .content {
     width: 38.25rem;
     height: 22.937rem;
-    background-color: tan;
 }
 
+.social-property-1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 2.2rem;
+    margin-bottom: 48px;
+}
+.social-property-2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 2.2rem;
+}
+.property-1 {
+    width: 48%;
+}
+.property-2 {
+    width: 48%;
+}
+.mail-property-2  {
+    margin-top: 0.75rem;
+}
+.mail-property-2, .para_1  {
+    font-size:1.125rem ;    
+    font-weight: 700;
+}
+.mail-property-2, .para_2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey);
+} 
+.para_2 {
+    margin-top: 0.25rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+.mail-property-3 p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+}
 
 
 
@@ -305,6 +336,10 @@ main {
 .mail-box {
     width: 9.70rem;
     height: 3.68rem;
+}
+
+.para_2 {
+    color: var(--gray);
 }
 
 .phone-num {

@@ -1,0 +1,316 @@
+@media (min-width: 0) and (max-width: 375px) {
+    /** navbar styling **/
+    header {
+        width: 375px;
+        height: 70px;
+        padding: 0;
+    }
+
+    .nav-bar {
+        width: 375px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo {
+        padding-left: 19px;
+    }
+
+    .bar-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 19px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .nav-contact {
+        display: none;
+    }
+
+    /**hero container**/
+    main {
+        width: 375px;
+        height: 1280px;
+        margin: 0;
+        padding: 40px 20px;
+    }
+
+    .hero-container {
+        width: 335px;
+    }
+
+
+    .heading-suporting h3 {
+        font-size: 40px;
+        padding-bottom: 16px;
+    }
+
+    .heading-suporting p {
+        font-size: 14.5px;
+        line-height: 24.8px;
+    }
+
+    /* from and content part */
+    .form-and-content {
+        width: 335px;
+        height: 1071px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+
+    /* form */
+    .form {
+        width: 100%;
+        height: 627px;
+    }
+
+    .full-name {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .first-last-name {
+        width: 335px;
+        height: 25px;
+    }
+    
+    .first-last-name input {
+        width: 245px;
+    }
+
+    .email {
+        width: 335px;
+    }
+
+    .email input {
+        width: 335px;
+        height: 78px;
+    }
+
+    .country-number {
+        height: 45px;
+    }
+
+    .country-number input {
+        width: 86.5%;
+    }
+    
+    .box-check label {
+        font-size: 15.6px;
+    }
+
+
+    /* content */
+    .content {
+        width: 100%;
+        height: 388px;
+    }
+
+    .mail-property-3 p {
+        font-size: 14px;
+    }
+
+
+    /**footer**/
+    .foot-container {
+        width: 375px;
+        height: 870px;   
+        color: var(--white);
+        margin: 0;
+        padding: 56px 20px;
+        background-color: var(--black);
+    }
+
+    .parent-componant {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 629px;
+    }
+
+    .company-info {
+        width: 100%;
+        height: 326px;
+    }
+    
+    .foot-heading h6 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 142px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-componant {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 279px;
+    }
+
+    .menu-right {
+        width: 335px;
+        height: 107px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 24px;
+    }
+
+    .menu-right p {
+        width: 335px;
+        height: 10px;
+    }
+
+    hr {
+        margin: 40px 0 16px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 376px) and (max-width: 1024px) {
+    /**navbar styling**/
+    header {
+        width: 1024px;
+        height: 83px;
+        margin: 0;
+    }
+
+    /**hero container**/
+    main {
+        width: 1024px;
+        height: 1213px;
+        margin: 0;
+        padding: 40px 80px 80px;
+    }
+
+    .heading-suporting h3 {
+        padding-bottom: 16px;
+    }
+
+    /* from and content part */
+    .form-and-content {
+        width: 100%;
+        height: 945px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* form */
+    .form {
+        width: 100%;
+        height: 586px;
+    }
+
+    .first-last-name {
+        width: 424px;
+    }
+    
+    .first-last-name input {
+        width: 334px;
+    }
+
+    .email input {
+        width: 864px;
+    }
+
+    .country-number {
+        height: 45px;
+    }
+
+    .country-number input {
+        width: 94.8%;
+    }
+
+
+    /* content */
+    .content {
+        width: 100%;
+        height: 303px;
+    }
+
+    .social-property-1 {
+        margin-bottom: 24px;
+    }
+
+    /**footer**/
+    .foot-container{
+        width: 1024px;
+        height: 528px;   
+        margin: 0;
+        padding: 80px 39px 0;
+    }
+
+    .parent-componant {
+        display: flex;
+        justify-content: space-between;
+        width: 946px;
+        height: 288px;
+    }
+
+    .company-info {
+        width: 432px;
+        height: 288px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .office {
+        margin-top: 24px;
+    }
+
+    hr {
+        width: 912px;
+        margin: 40px 17px 16px;
+        color: var(--white);
+    }
+    
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 4rem;
+        padding: 0px 17px;
+    }
+
+
+}
